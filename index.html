@@ -2,42 +2,104 @@
 <html lang="pt">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../Styles/global.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./Styles/global.css">
 
-    <title>Green Blog</title>
+  <title>Green Blog</title>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary-color">
-        <img style="margin-right: 10px;" src="../../Content/Icons/leaf.svg" alt="Leaf-icon" width="25px" height="25px">
-        <a class="navbar-brand" href="#">Green Blog</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Posts</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary-color nav-border">
+    <a class="navbar-brand" href="#">
+      <img style="margin-right: 10px;" src="./Content/Icons/leaf.svg" alt="Leaf-icon" width="25px" height="25px">
+      Green Blog
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <div class="collapse navbar-collapse font-color" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Posts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sobre nós</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-6 center-image-home">
+        <img class="img-fluid image-home" src="./Content/Images/home-image-01.jpg">
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-6">
+        <div class="main-text">
+          <h3>Este é o Green Blog!</h3>
+          <p>
+            Ele existe com o objetivo de divulgar o máximo de informação sobre temas como: Sustentabilidade,
+            Autossustentabilidade, Green IT e outros.
+            Nós sabemos que nos dias atuais todos temos dias corridos e com muitas tarefas e nem sempre conseguimos
+            separar um tempo para pensar em nosso Planeta, porém não é por isso que devemos deixar de tentar melhorar
+            nossos hábitos diários para termos uma rotina mais sustentável.
+          </p>
+          <p>
+            Nós do Green Blog sentimos que um dos maiores problemas atuais é a falta de divulgação de conteúdo de
+            qualidade sobre sustentabilidade e por isso o nosso blog terá posts com dicas, materiais, links, videos e
+            artigos para que você possa ter acesso ao conteúdo de forma rápida e direta.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer style="font-size: 14px;" class="page-footer font-small teal pt-4 footer-custom">
+    <div class="container text-center text-md-left">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h6 class="text-uppercase font-weight-bold">Nossos Posts</h6>
+          <p>
+            Quer ter acesso a conteúdo de rápida leitura e de qualidade? Acesse nossa aba <a>Posts</a>
+          </p>
+        </div>
+        <hr class="clearfix w-100 d-md-none pb-3">
+        <div class="col-md-6 mb-md-0 mb-3">
+          <h6 class="text-uppercase font-weight-bold">Sobre nós</h6>
+          <p>
+            Caso queira conhecer um pouco mais do grupo por trás do Green Blog, acesse nossa aba <a>Sobre nós</a>
+          </p>
+        </div>
+      </div>
+      <hr style="background-color: white;">
+      <div class="footer-copyright text-center py-3">
+        Desenvolvido por um grupo de alunos do 4º semestre de Ciências da Computação do Unasp - Campus São Paulo
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
