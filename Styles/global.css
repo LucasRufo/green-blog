@@ -23,6 +23,14 @@ body {
     border-bottom: 1px solid var(--secondary-color);
 }
 
+.img-sobre{
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
 .main-text {
     font-size: 18px;
     text-align: justify;
@@ -71,6 +79,18 @@ body {
 
 .read-more:hover{
     color: #28a029;
+}
+
+.img-height{
+    /* height: 348px; */
+}
+
+@media (min-width: 768px) and (max-width:1024px) {
+    .footer-absolute{
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+    }
 }
 
 @media (min-width: 768px) {
